@@ -1,0 +1,232 @@
+﻿@charset "UTF-8";
+
+body {
+    font-family: "Comic Sans MS";
+    margin: 0;
+
+}
+
+.BigBoks {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 30px;
+    grid-gap: 35px;
+    
+}
+
+.GoToTheLeft {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: blue;
+    background-image: url('Bilder/giphy (2).gif');
+    background-size: 100% 100%;
+
+}
+
+.GoToTheMiddle {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0.8;
+    background-color: #474747;
+}
+
+.midleft  {
+    grid-column: 1/2;
+    grid-row: 2/3;
+   
+}
+
+.mid {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url('Bilder/North Korea.jpg');
+    background-size: 100% 100%;
+    opacity: 0.8;
+    
+}
+
+.right {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url('Bilder/North-Korea_240-animated-flag-gifs.gif');
+    background-size: 100% 100%;
+
+}
+
+.midright {
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+
+.bunn {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: red;
+
+}
+
+.video, video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: 1200;
+        height: auto;
+        z-index: -1;
+
+}
+
+div#ok {
+    background-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    display: inline;
+    padding: 12px;
+    position: center;
+    
+}
+
+ul a {
+    padding: 42px 95px;
+    color: #000000;
+    font-family: "Comic Sans Ms";
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 2;
+    font-size: 40;
+    left: 20
+    
+}
+
+ul a:hover {
+    background-color:#ebe584;
+}
+
+ul#tabel a {
+    padding: 35px 50px;
+    top: 10;
+
+}
+
+.BigBoks#tabel {
+    grid-gap: 0;
+    grid-template-rows: 100px 80px 1fr 30px;
+    grid-row-gap: 20px;
+
+}
+
+.title {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.tabel {
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+th {
+    background-color: blue;
+    height: 30px;
+}
+
+td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.BigBoks#reise {
+    grid-gap: 0;
+    grid-template-rows: 100px 80px 40px 1fr;
+    grid-row-gap: 20px;
+
+}
+
+.click {
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+div#link li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url('Bilder/72ac9cd9d84066146477164cf127cfc6.gif');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 150px;
+    opacity: 0.9;
+    border-radius: 50%;
+    border-width: 200;
+    width: 600;
+
+}
+
+div#link li {
+    display: flex;
+    position: center;
+    
+}
+
+div#link a {
+    padding: 150 188;
+    color: #ba00c0;
+    font-family: "Comic Sans Ms";
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    font-size: 40;    
+}
+
+div#link a:hover {
+    background-image: url('Bilder/1298574546091.jpg');
+    height: 60px;
+
+}
+
+.cat {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url('Bilder/BUXaNrZCYAAUvWw.jpg');
+    height: 300px;
+    width: 50%;
+    position: relative;
+    left: 250px;
+    
+}
+
+.cat:hover  {
+    background-image: url('Bilder/Kim-Jong-un-missile-launch-1032502.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+
+}

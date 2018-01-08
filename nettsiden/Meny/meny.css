@@ -1,0 +1,61 @@
+Body {
+    background-color:yellow;
+    text-align: center;
+    background-image('c:/wamp/www/nettsiden/Bilder/Henrik.jpg');
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+}
+ul a {
+    padding: 40px 30px;
+    color: rebeccapurple;
+    font-style: "Comic Sans MS";
+    text-decoration: none;
+    background-color: pink;
+}
+ul a:hover {
+    background-color: purple;
+}
+.boks {
+    width: 400px;
+    height: auto;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: white;
+}
+.hub {
+    width: 35px;
+    height: auto; 
+    background-color: darkgreen;
+    position: absolute;
+    left: 500px;
+}
+.hub a:hover {
+    background-color: white;
+}
+.meny {
+    text-decoration: none;
+    color: red;
+    font-style: bold;
+}
+table, th, td {
+    border: 2px solid black;
+}
+table {
+        width: 300px;
+        border-collapse: collapse;
+        position: absolute;
+        left: 550px;
+}
+th {
+    background-color: white;    
+}
+td {
+    background-color: pink;
+    
+}

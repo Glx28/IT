@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>boks</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="c:/wamp/www/nettsiden/,CSS/boks.css">
+    </head>
+    <body>
+            <script type="text/javascript">
+                document.oncontextmenu = disableRightClick;
+                function disableRightClick(event) {
+                    event = event || window.event;
+    
+                    if(event.preventDefault) {
+                        event.preventDefault();
+                    }
+                    else {
+                        event.returnValue = false;
+                    }
+                }
+            </script>
+            
+        <div class="storB">
+            <div class="overB"> <a href="http://www.facebook.com" alt="error"> <img src="c:/wamp/www/nettsiden/Bilder/Henrik.jpg"></a> </div>
+            <div class="midB"> Henrik er kull</div>
+            <div class="undB"> no joke</div>
+
+        </div>
+    </body>
+</html>

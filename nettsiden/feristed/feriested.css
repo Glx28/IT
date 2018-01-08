@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Comic Sans MS";
+    margin: 0;
+
+}
+
+.BigBoks {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 30px;
+    grid-gap: 20px;
+    background-color: blueviolet;
+
+}
+
+.GoToTheLeft {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: blue;
+    background-image: url('giphy (2).gif');
+    background-size: 100% 100%;
+
+}
+
+.GoToTheMiddle {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: black;
+}
+
+.midleft  {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url('');
+    background-color: black;
+}
+
+.mid {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url('North Korea.jpg');
+    background-size: 100% 100%;
+    
+}
+
+.right {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url('North-Korea_240-animated-flag-gifs.gif');
+    background-size: 100% 100%;
+
+}
+
+.midright {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url('c:/wamp/www/nettsiden/Bilder/last ned (2).jpg')
+
+}
+
+
+
+.bunn {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: red;
+
+}
+
+.video, video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: 1000;
+        height: 1000;
+        z-index: -1;
+}

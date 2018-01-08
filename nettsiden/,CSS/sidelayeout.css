@@ -1,0 +1,115 @@
+.boks {
+    width: 70%;
+    height: 60px;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: #329632;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+}
+
+ul a {
+    padding: 10px 30px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #F005C9;
+}
+
+ul a:hover {
+    background-color:#ebe584;
+}
+
+
+input[type="text"] {
+    display: block;
+    width: 220px;
+    padding: 5px;
+    color: #666666;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: #444444;
+    border: none;
+    background-color: #888888;
+
+}
+
+form {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+}
+
+body {
+    background-color: #f33333;
+}
+
+.innpakning {
+    width: 1000px;
+    background-color: #404040;
+    margin: auto;
+    display:flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+.topptekst {
+    
+    height: 120px;
+    padding: 5px;
+    margin: 5px;
+    order: 1;
+    background-image: url('C:/wamp/www/nettsiden/Bilder/giphy.gif');
+    background-position: left;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-color: #f04605
+}
+
+.meny {
+    flex-basis: 100%;
+    background-color: #f04605;
+    padding: 5px;
+    margin: 5px;
+    order: 2;
+
+}
+
+.innhold {
+    background-color: #FF1919;
+    flex: 1;
+    order: 3;
+    padding: 5px;
+    margin: 5px;
+}
+.innhold table {
+    margin-left: 500;
+    padding: 10px;
+    background-color:grey;
+}
+.innhold th {
+    border: 3px pink solid;
+    background-color: blue;
+    padding: 5;
+}
+.innhold td {
+    padding: 5;
+    border: 6 blueviolet solid;
+    background-color: white;
+}

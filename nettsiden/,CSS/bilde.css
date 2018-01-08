@@ -1,0 +1,23 @@
+@charset UTF-8;
+
+.stor {
+    width:400;
+    border-radius: 50%;
+    border-width: 10px;
+    
+
+
+}
+
+.liten {
+    width: 100px;
+    box-shadow: 10px 5px 4px blue;
+    margin: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #AC0707;
+}
+
+img.liten:hover {
+    width: 500px;
+}

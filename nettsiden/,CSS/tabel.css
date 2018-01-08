@@ -1,0 +1,22 @@
+
+
+
+table, th, td {
+    border: 2px solid black;
+ }
+ body {
+     background-image: url('d:/Mine Dokumenter (some3)/Mine bilder/18301058_428857270808608_5863259977332140128_n.jpg');
+     
+     
+ }
+ table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+th {
+    background-color: #3B2663;
+    border: 4px transparent #4255AC;
+    padding: 20px;
+}
+

@@ -1,0 +1,31 @@
+body {
+    background-color: #380303;
+    font-family: "Century Gothic", Arial;
+    font-size: 20px;
+    color: #33FF00;
+}
+
+.bilde1 {
+    width:400px;
+    box-shadow: 20px 30px 4px purple;
+}
+
+.bilde2 {
+    width:100px;
+    border-radius:80%;
+    margin:30px;
+    border-width:5px;
+    border-style:solid;
+    border-color:pink;
+    background-attachment: fixed;
+    
+}
+
+img.bilde2:active {
+    width:999px;
+    border-style: solid;
+    border-color: orange;
+    border-width: 10px;
+
+    
+}
