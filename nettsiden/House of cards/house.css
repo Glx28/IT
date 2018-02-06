@@ -1,0 +1,68 @@
+﻿@charset "UTF-8";
+
+body {
+    background-color: #2c2c2c;
+    margin: 0;
+
+}
+
+.container {
+    display: grid;
+    height: 1000vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2% 32% 32% 32% 2%;
+    grid-gap: 100;
+
+}
+
+.top {
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+}
+
+.mid {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-image: url('house bilder/road-pavement-1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    left: 8%;
+
+}
+
+ul {
+    margin: auto;
+    background-attachment: fixed;
+    background-color: rgb(160, 0, 0);   
+    width: 80%;
+    
+}
+
+ul li {
+    display: inline-block;
+    position: center;
+    
+}
+
+ul a {
+    display: block;
+    color: #000000;
+    font-family: "Comic Sans Ms";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40;
+    padding: 20px 140px;
+    
+}
+
+ul a:hover {
+    background-color: white;
+}
+
+.bottom {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: white;
+
+}

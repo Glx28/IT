@@ -1,0 +1,21 @@
+
+body {
+    background-image: url('C:/Wamp/www/nettsiden/Bilder/137412279020.jpg');
+}
+
+.sidebooks {
+    width: 1000px;
+    background-color: #404040;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sleftboks {
+    width: 1000px;
+    background-color: #404040;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

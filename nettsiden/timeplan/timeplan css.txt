@@ -1,0 +1,36 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+th {
+    background-color: blue;
+}
+td#IT {
+    background-color: dimgrey;
+}
+td#Matte {
+    background-color: lime;
+}
+td#Kinesisk {
+    background-image: url('ok.png');
+}
+td#Tof {
+    background-color: aquamarine;
+}
+td#Fysikk {
+    background-color: darkred;
+}
+td#Norsk {
+    background-color: purple;
+}
+td#Kropps?ving {
+    background-color: darkorange;
+}
+td#Historie {
+    background-color: yellow;
+}
