@@ -70,6 +70,7 @@ body {
 }
 
 .topptekst {
+<<<<<<< HEAD
     flex-basis: 200px;
     height: 120px;
     background-color: #FF0000;
@@ -77,6 +78,18 @@ body {
     margin: 5px;
     order: 1;
     
+=======
+    
+    height: 120px;
+    padding: 5px;
+    margin: 5px;
+    order: 1;
+    background-image: url('C:/wamp/www/nettsiden/Bilder/giphy.gif');
+    background-position: left;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-color: #f04605
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }
 
 .meny {
@@ -94,4 +107,22 @@ body {
     order: 3;
     padding: 5px;
     margin: 5px;
+<<<<<<< HEAD
+=======
+}
+.innhold table {
+    margin-left: 500;
+    padding: 10px;
+    background-color:grey;
+}
+.innhold th {
+    border: 3px pink solid;
+    background-color: blue;
+    padding: 5;
+}
+.innhold td {
+    padding: 5;
+    border: 6 blueviolet solid;
+    background-color: white;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }

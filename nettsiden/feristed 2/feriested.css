@@ -77,6 +77,10 @@ body {
         width: 1200;
         height: auto;
         z-index: -1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }
 
 div#ok {
@@ -87,7 +91,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     
 }
 
@@ -96,20 +103,35 @@ ul li {
     padding: 12px;
     position: center;
     
+<<<<<<< HEAD
 
 }
 
 ul a {
     padding: 42px 8%;
+=======
+}
+
+ul a {
+    padding: 42px 95px;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     color: #000000;
     font-family: "Comic Sans Ms";
     font-weight: bold;
     text-decoration: none;
+<<<<<<< HEAD
     position: center;
     top: 2;
     font-size: 40;
     align-items: center;
 
+=======
+    position: relative;
+    top: 2;
+    font-size: 40;
+    left: 20
+    
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }
 
 ul a:hover {
@@ -117,7 +139,11 @@ ul a:hover {
 }
 
 ul#tabel a {
+<<<<<<< HEAD
     padding: 35px 8%;
+=======
+    padding: 35px 50px;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     top: 10;
 
 }
@@ -176,18 +202,31 @@ td {
 
 div#link li {
     list-style-type: none;
+<<<<<<< HEAD
     margin: auto;
+=======
+    margin: 0;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     padding: 0;
     background-image: url('Bilder/72ac9cd9d84066146477164cf127cfc6.gif');
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+<<<<<<< HEAD
     align-items: center;
     text-align: center;
+=======
+    position: relative;
+    left: 150px;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     opacity: 0.9;
     border-radius: 50%;
     border-width: 200;
     width: 600;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }
 
 div#link li {
@@ -204,8 +243,11 @@ div#link a {
     text-decoration: none;
     position: relative;
     font-size: 40;    
+<<<<<<< HEAD
     align-items: center;
     text-align: center;
+=======
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }
 
 div#link a:hover {
@@ -220,8 +262,13 @@ div#link a:hover {
     background-image: url('Bilder/BUXaNrZCYAAUvWw.jpg');
     height: 300px;
     width: 50%;
+<<<<<<< HEAD
     background-repeat: no-repeat;
     margin: auto;
+=======
+    position: relative;
+    left: 250px;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     
 }
 
@@ -229,6 +276,10 @@ div#link a:hover {
     background-image: url('Bilder/Kim-Jong-un-missile-launch-1032502.jpg');
     background-repeat: no-repeat;
     height: 600px;
+<<<<<<< HEAD
     margin: auto;
+=======
+    width: 100%;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 
 }

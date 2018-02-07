@@ -1,15 +1,25 @@
 ﻿@charset "UTF-8";
 
 body {
+<<<<<<< HEAD
     background-color: #2c2c2c;
     margin: 0;
 
+=======
+    background-color: #000000;
+    margin: 0;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 150%;
+    color: #a80000;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 }
 
 .container {
     display: grid;
     height: 1000vh;
     grid-template-columns: 25% 25% 25% 25%;
+<<<<<<< HEAD
     grid-template-rows: 2% 32% 32% 32% 2%;
     grid-gap: 100;
 
@@ -20,6 +30,13 @@ body {
     grid-row: 1/2;
 
 }
+=======
+    grid-template-rows: 2% 10% 10% 10% 2%;
+    grid-row-gap: 250px;
+
+}
+
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 
 .mid {
     grid-column: 2/4;
@@ -27,36 +44,72 @@ body {
     background-image: url('house bilder/road-pavement-1.png');
     background-repeat: no-repeat;
     position: relative;
+<<<<<<< HEAD
     left: 8%;
+=======
+    left: 0%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
 
 }
 
 ul {
+<<<<<<< HEAD
     margin: auto;
     background-attachment: fixed;
     background-color: rgb(160, 0, 0);   
     width: 80%;
+=======
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     
 }
 
 ul li {
+<<<<<<< HEAD
     display: inline-block;
     position: center;
+=======
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+   
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     
 }
 
 ul a {
+<<<<<<< HEAD
     display: block;
+=======
+    padding: 0px 30px;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     color: #000000;
     font-family: "Comic Sans Ms";
     font-weight: bold;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 40;
     padding: 20px 140px;
+=======
+    position: relative;
+    top: 2;
+    font-size: 40;
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
     
 }
 
 ul a:hover {
+<<<<<<< HEAD
     background-color: white;
 }
 
@@ -66,3 +119,369 @@ ul a:hover {
     background-color: white;
 
 }
+=======
+    background-color:#ebe584;
+}
+
+#meny {
+    display: inline;
+    transform: translatey(-80%);
+    transition: transform 0.4s ease;
+    position: fixed;
+    left: 15%;
+    background-attachment: fixed;
+    background-color: rgb(160, 0, 0);   
+    
+    
+}
+
+#meny:hover {
+    transform: translatey(10%);
+}
+
+
+
+
+.bottom {
+    grid-column: 2/4;
+    grid-row: 3/4;
+
+}
+
+
+
+.tekstboks {
+    flex-basis: 3%;
+    background-color: rgb(255, 255, 255);
+    order: 2;
+    margin: 5%;
+    text-align: justify;
+    max-width: 40%;
+    position: fixed;
+    max-height: 20%
+
+}
+
+.title {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+
+
+}
+
+.bildeboks {
+    grid-column: 3/5;
+    grid-row: 2/4;
+    background-image: url('house bilder/House-of-Cards.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 8%;
+    
+}
+
+.textare {
+    grid-column: 1/3;
+    grid-row: 2/4;
+    margin: 8%;
+    background-color: white;    
+
+}
+
+.text {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: grey;
+    font-size: 30px;
+    text-decoration: none;
+    outline: none;
+    resize: none;
+
+
+}
+
+#text::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+
+ 
+#text::-webkit-scrollbar-thumb {
+  background-color: #292929;;
+  outline: 1px solid slategrey;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+.boks2 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 16% 42% 42%;
+
+}
+
+.karakterer {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 16% 42% 42%;
+
+}
+
+.profilbilde {
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: grid;
+    height: 84vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 65%;
+
+}
+
+.text_karakterer {
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+
+#k_tekst {
+    position: relative;
+    top: -30px
+}
+
+.karakterer_1 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-image: url('house bilder/House_of_Cards_main_characters.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.test {
+    background-color: black;
+
+}
+
+.profil_liste {
+    grid-column: 3/5;
+    grid-row: 2/4;
+    background-color: white;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 40% 40%;
+    max-height: 100%;
+    overflow: scroll;
+      
+}
+
+.test_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url('house bilder/francis.jpg');
+ 
+}
+
+
+
+#navn_profil {
+    position: relative;
+    top: 100%;
+    color: red;
+    text-decoration: none;
+    max-width: 100%;
+    font-size: 2vw;
+    
+
+} 
+
+#profil {
+    background-size: 100% 100%;
+    border-radius: 100%;
+    height: 30%;
+    width: 80%;
+    position: relative;
+    left: 3%;
+    text-align: center;
+    font-size: 60%;
+
+
+}
+
+.testbilde:hover {
+    color:blue;
+
+}
+
+.test_2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url('house bilder/wo1v1WIg.jpg')
+
+
+}
+
+.test_3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url('house bilder/Doug.jpg')
+
+
+}
+
+.test_4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url('house bilder/Edward.jpeg')
+
+}
+
+.test_5 {
+    grid-column: 1/2;    
+    grid-row: 3/4;
+    background-image: url('house bilder/Garrett_Walker.jpg')
+}
+
+.test_6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url('house bilder/Zoe_Barnes.jpg')
+
+}
+
+.test_7 {
+ 
+
+}
+
+.test_8 {
+
+}
+
+.trailer {
+    grid-column: 1/5;
+    grid-row: 5/6;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 50% 50%;
+
+}
+
+.video_titel {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    text-align: center;
+
+}
+
+.video_trailer {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+
+}
+
+.video_trailer iframe {
+    max-width: 100%
+    
+}
+
+.seasonger {
+    grid-column: 1/5;
+    grid-row: 6/8;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    top: 600px;
+
+}
+
+.seasong_titel {
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+
+.seasong_liste {
+    background-color: pink;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+#seasong-background {
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    
+
+}
+
+#seasong_tekst {
+    color: red;
+    position: relative;
+    top: 580px;
+    max-width: 100%;
+    font-size: 140%;
+
+}
+
+.seasong1 {
+    grid-column: 1/2;
+    background-image: url('house bilder/250px-House_of_Cards_season_1.png');
+
+}
+
+.seasong2 {
+    grid-column: 2/3;
+    background-image: url('house bilder/250px-House_of_Cards_season_2.png');
+}
+
+.seasong3 {
+    grid-column: 3/4;
+    background-image: url('house bilder/250px-House_of_Cards_season_3.png');
+}
+
+.seasong4 {
+    grid-column: 4/5;
+    background-image: url('house bilder/last ned (6).jpg');
+}
+
+.seasong5 {
+    grid-column: 5/6;
+    background-image: url('house bilder/last ned (7).png');
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340

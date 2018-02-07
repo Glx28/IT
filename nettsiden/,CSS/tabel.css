@@ -4,9 +4,17 @@
 table, th, td {
     border: 2px solid black;
  }
+<<<<<<< HEAD
 body {
     background-image: url('C:/Wamp/www/nettsiden/Bilder/maxresdefault.jpg');
 }
+=======
+ body {
+     background-image: url('d:/Mine Dokumenter (some3)/Mine bilder/18301058_428857270808608_5863259977332140128_n.jpg');
+     
+     
+ }
+>>>>>>> a34f17c793acb37d665f36bfd285c80bc79cd340
  table {
     margin-left: auto;
     margin-right: auto;
